@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test1.dir/getfloat.c.o"
+  "CMakeFiles/test1.dir/strlen.c.o"
   "test1.pdb"
   "test1"
 )

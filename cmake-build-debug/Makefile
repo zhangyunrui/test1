@@ -123,32 +123,32 @@ test1/fast:
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
 .PHONY : test1/fast
 
-getfloat.o: getfloat.c.o
+strlen.o: strlen.c.o
 
-.PHONY : getfloat.o
+.PHONY : strlen.o
 
 # target to build an object file
-getfloat.c.o:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/getfloat.c.o
-.PHONY : getfloat.c.o
+strlen.c.o:
+	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/strlen.c.o
+.PHONY : strlen.c.o
 
-getfloat.i: getfloat.c.i
+strlen.i: strlen.c.i
 
-.PHONY : getfloat.i
+.PHONY : strlen.i
 
 # target to preprocess a source file
-getfloat.c.i:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/getfloat.c.i
-.PHONY : getfloat.c.i
+strlen.c.i:
+	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/strlen.c.i
+.PHONY : strlen.c.i
 
-getfloat.s: getfloat.c.s
+strlen.s: strlen.c.s
 
-.PHONY : getfloat.s
+.PHONY : strlen.s
 
 # target to generate assembly for a file
-getfloat.c.s:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/getfloat.c.s
-.PHONY : getfloat.c.s
+strlen.c.s:
+	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/strlen.c.s
+.PHONY : strlen.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test1"
-	@echo "... getfloat.o"
-	@echo "... getfloat.i"
-	@echo "... getfloat.s"
+	@echo "... strlen.o"
+	@echo "... strlen.i"
+	@echo "... strlen.s"
 .PHONY : help
 
 

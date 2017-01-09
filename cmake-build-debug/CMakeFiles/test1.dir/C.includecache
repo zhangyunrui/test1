@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cloud/CLionProjects/test1/getfloat.c
-ctype.h
--
+/home/cloud/CLionProjects/test1/strlen.c
 stdio.h
--
-string.h
 -
 

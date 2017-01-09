@@ -57,38 +57,38 @@ include CMakeFiles/test1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test1.dir/flags.make
 
-CMakeFiles/test1.dir/getfloat.c.o: CMakeFiles/test1.dir/flags.make
-CMakeFiles/test1.dir/getfloat.c.o: ../getfloat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cloud/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test1.dir/getfloat.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test1.dir/getfloat.c.o   -c /home/cloud/CLionProjects/test1/getfloat.c
+CMakeFiles/test1.dir/strlen.c.o: CMakeFiles/test1.dir/flags.make
+CMakeFiles/test1.dir/strlen.c.o: ../strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cloud/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test1.dir/strlen.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test1.dir/strlen.c.o   -c /home/cloud/CLionProjects/test1/strlen.c
 
-CMakeFiles/test1.dir/getfloat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test1.dir/getfloat.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cloud/CLionProjects/test1/getfloat.c > CMakeFiles/test1.dir/getfloat.c.i
+CMakeFiles/test1.dir/strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test1.dir/strlen.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cloud/CLionProjects/test1/strlen.c > CMakeFiles/test1.dir/strlen.c.i
 
-CMakeFiles/test1.dir/getfloat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test1.dir/getfloat.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cloud/CLionProjects/test1/getfloat.c -o CMakeFiles/test1.dir/getfloat.c.s
+CMakeFiles/test1.dir/strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test1.dir/strlen.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cloud/CLionProjects/test1/strlen.c -o CMakeFiles/test1.dir/strlen.c.s
 
-CMakeFiles/test1.dir/getfloat.c.o.requires:
+CMakeFiles/test1.dir/strlen.c.o.requires:
 
-.PHONY : CMakeFiles/test1.dir/getfloat.c.o.requires
+.PHONY : CMakeFiles/test1.dir/strlen.c.o.requires
 
-CMakeFiles/test1.dir/getfloat.c.o.provides: CMakeFiles/test1.dir/getfloat.c.o.requires
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/getfloat.c.o.provides.build
-.PHONY : CMakeFiles/test1.dir/getfloat.c.o.provides
+CMakeFiles/test1.dir/strlen.c.o.provides: CMakeFiles/test1.dir/strlen.c.o.requires
+	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/strlen.c.o.provides.build
+.PHONY : CMakeFiles/test1.dir/strlen.c.o.provides
 
-CMakeFiles/test1.dir/getfloat.c.o.provides.build: CMakeFiles/test1.dir/getfloat.c.o
+CMakeFiles/test1.dir/strlen.c.o.provides.build: CMakeFiles/test1.dir/strlen.c.o
 
 
 # Object files for target test1
 test1_OBJECTS = \
-"CMakeFiles/test1.dir/getfloat.c.o"
+"CMakeFiles/test1.dir/strlen.c.o"
 
 # External object files for target test1
 test1_EXTERNAL_OBJECTS =
 
-test1: CMakeFiles/test1.dir/getfloat.c.o
+test1: CMakeFiles/test1.dir/strlen.c.o
 test1: CMakeFiles/test1.dir/build.make
 test1: CMakeFiles/test1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cloud/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test1"
@@ -99,7 +99,7 @@ CMakeFiles/test1.dir/build: test1
 
 .PHONY : CMakeFiles/test1.dir/build
 
-CMakeFiles/test1.dir/requires: CMakeFiles/test1.dir/getfloat.c.o.requires
+CMakeFiles/test1.dir/requires: CMakeFiles/test1.dir/strlen.c.o.requires
 
 .PHONY : CMakeFiles/test1.dir/requires
 

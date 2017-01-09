@@ -1,1 +1,1 @@
-/usr/bin/cc  -g   CMakeFiles/test1.dir/getfloat.c.o  -o test1 
+/usr/bin/cc  -g   CMakeFiles/test1.dir/strlen.c.o  -o test1 

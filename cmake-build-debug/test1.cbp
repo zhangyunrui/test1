@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cloud/CLionProjects/test1/getfloat.c">
+		<Unit filename="/home/cloud/CLionProjects/test1/strlen.c">
 			<Option target="test1"/>
 		</Unit>
 		<Unit filename="/home/cloud/CLionProjects/test1/CMakeLists.txt">
